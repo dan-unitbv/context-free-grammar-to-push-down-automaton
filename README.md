@@ -1,1 +1,1 @@
-# lfc--context-free-grammar-to-push-down-automaton
+Converter from context free grammar to push-down automaton.

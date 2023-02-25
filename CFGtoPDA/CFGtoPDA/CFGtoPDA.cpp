@@ -64,7 +64,7 @@ int main()
     g.ReadGrammar();
     std::cout << "Press 'a' to print the grammar." << std::endl;
     std::cout << "Press 'b' to simplify the grammar (2/3) and print it." << std::endl;
-    std::cout << "Press 'c' to create a push-down automaton from a given context free grammar already in GNF." << std::endl;
+    std::cout << "Press 'c' to create a push-down automaton from a given context free grammar already in GNF and print it." << std::endl;
     std::cout << "Press 'd' to check if the push-down automaton is deterministic." << std::endl;
     std::cout << "Press 'e' to exit." << std::endl;
     if (g.VerifyGrammar() == true && g.IsCFG() == true)

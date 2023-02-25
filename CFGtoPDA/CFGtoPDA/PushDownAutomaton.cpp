@@ -2,8 +2,6 @@
 
 void PushDownAutomaton::PrintAutomaton()
 {
-    std::cout << std::endl;
-
     std::cout << "states: ";
     for (auto state : states)
     {
